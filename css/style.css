@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    color: white;
+    font-family:sans-serif;
+}
+
+#contenedor{
+    height: 100vh;
+    background-image: url("../imgs/fondo-pantalla.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover; /* Asegura que la imagen cubra toda el área de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(81, 81, 81, 0.5);
+    padding: 2% 8%;
+    border-radius: 5px;
+}
+
+h1{
+    margin: 0;
+    opacity: 1;
+    text-align: center;
+    margin: 10% 0% 15%;
+    font-size: 30px;
+}
+
+div{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10%;
+}
+div>input{
+    margin-left: 4%;
+}
+
+label{
+   font-size: 13px;
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.botones-login{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 15px;
+    padding: 3% 7%;
+    font-size: 11.5px;
+}
+
+.boton-abrir-sesion{
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.boton-login{
+    border: 1px solid black;
+}
+
+
